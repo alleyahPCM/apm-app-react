@@ -56,7 +56,7 @@
   max-height: 500px;
   width: auto;
   left: 0;
-  animation: top-to-bottom 9s ease-in infinite;
+  animation: top-to-bottom 8s ease-in infinite;
   animation-direction: alternate;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .card-img {
-  max-height: 25vh;
+  height: 100%;
   object-fit: cover;
 }
 
@@ -101,7 +101,7 @@
   color: #7685A9;
 }
 
-.members-text img, .top-text img {
+.members-text img, .top-text img, .signup-text img {
   max-width: 400px;
   padding-bottom: 2%;
 }
@@ -116,7 +116,7 @@
     flex-direction: column !important;
   }
 
-  .members-text img, .top-text img {
+  .members-text img, .top-text img, .signup-text img {
     width: 250px;
     padding-bottom: 2%;
   }
@@ -125,9 +125,31 @@
     width: 60px!important;
     height: 60px!important;
   }
+
+  .ppg {
+    height: 250px;
+  }
 }
 
 .custom-navbar {
   background-color: #7685A9!important;
 }
 
+.nav-img {
+  margin-right: 10px;
+}
+
+.error {
+  color: red;
+}
+
+.signup-container {
+  max-width: 1200px;
+  align-self: center;
+}
+
+.signup-btn {
+  background-color: #7685A9 !important;
+  border-color: #7685A9 !important;
+  width: 100%;
+}

@@ -8,6 +8,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import {Routes, Route} from "react-router-dom";
 import Home from "./views/Home";
 import Music from "./views/Music";
+import SignUp from "./views/SignUp";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/music" element={<Music/>}/>
+        <Route path="/signup" element={<SignUp/>}/>
       </Routes>
       <FooterComponent/>
     </div>
