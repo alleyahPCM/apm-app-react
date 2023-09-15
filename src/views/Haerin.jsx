@@ -8,7 +8,7 @@ function Haerin() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const timeOutId = setTimeout(() => setIsLoading(false), 3000);
+    const timeOutId = setTimeout(() => setIsLoading(false), 5000);
     return () => clearTimeout(timeOutId);
   }, [setIsLoading]);
 
