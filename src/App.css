@@ -153,3 +153,11 @@
   border-color: #7685A9 !important;
   width: 100%;
 }
+
+.haerin-no {
+  max-width: 500px;
+}
+
+.no-text {
+  color: #7685A9;
+}

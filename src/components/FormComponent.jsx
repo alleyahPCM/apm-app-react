@@ -7,8 +7,11 @@ import signuptxt from '../img/signup.png';
 import { userSchema } from "../validations/UserValidation";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
+import { useNavigate } from 'react-router-dom';
 
 function FormComponent() {
+    const navigate = useNavigate();
+
     const {
         register,
         handleSubmit,
@@ -19,6 +22,7 @@ function FormComponent() {
 
     const onSubmit = (data) => {
         console.log(data);
+        navigate('/haerin');
     };
 
     return (
