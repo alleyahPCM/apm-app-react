@@ -28,7 +28,7 @@ function FormComponent() {
     return (
         <div className="d-flex flex-column flex-grow-1 signup-container">
         <div className="signup-text">
-            <img src={signuptxt} alt="My Top 10"/>
+            <img src={signuptxt} alt="Sign Up"/>
         </div>
         
         <Form onSubmit={handleSubmit(onSubmit)}>
