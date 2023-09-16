@@ -6,7 +6,7 @@ import 'react-loading-skeleton/dist/skeleton.css';
 function ShimmerComponent() {
   return (
     <div>
-      <Skeleton height={20} width={150} style={{ marginTop: '10px' }} />
+      <Skeleton height={32} width={150} style={{ marginTop: '10px' }} />
       <Skeleton width={500} height={500} />
     </div>
   );
